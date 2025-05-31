@@ -1,0 +1,92 @@
+/* BASE */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(120deg, #0f172a, #1e293b);
+}
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+header .btn {
+  background: #6366f1;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+header .btn:hover {
+  background: #4f46e5;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* RÈGLES */
+#regles ul {
+  list-style: none;
+  padding: 0;
+}
+#regles li {
+  background: #1f2937;
+  padding: 12px;
+  margin: 10px 0;
+  border-left: 4px solid #6366f1;
+  border-radius: 6px;
+}
+
+/* FACTIONS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+  background: #374151;
+}
+
+/* WHITELIST */
+#whitelist .btn {
+  background: #10b981;
+}
+#whitelist .btn:hover {
+  background: #059669;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f172a;
+  color: #aaa;
+}
+
